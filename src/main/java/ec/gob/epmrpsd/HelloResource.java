@@ -16,6 +16,6 @@ public class HelloResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/{name}")
     public String doGreeting(@PathParam("name") String name, @QueryParam("language") String language) {
-        return "Hello " + name + " with language " + language               ;
+        return "Hello " + name + " with language " + language;
     }
 }
